@@ -3,7 +3,7 @@ import Aegis from 'aegis-web-sdk';
 import useUserInfo from './useUserInfo';
 import { getLocalStorage, setLocalStorage } from '../utils/index';
 
-interface IAegisReportParams {
+export interface IAegisReportParams {
   apiName?: string;
   content?: string;
 }
